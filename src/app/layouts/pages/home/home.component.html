@@ -1,2 +1,13 @@
 <p>home works!</p>
 <button type="button" (click)="show()">ShowPopup</button>
+
+<table *ngIf="user" >
+    <tr>
+        <td>id</td>
+        <td>{{user.id}}</td>
+    </tr>
+    <tr>
+        <td>title</td>
+        <td>{{user.title}}</td>
+    </tr>
+</table>
